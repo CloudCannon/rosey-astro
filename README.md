@@ -1,6 +1,6 @@
 # Astro CloudCannon Starter
 
-A starting point for developers looking to build a website with Astro, using Bookshop components in CloudCannon.
+A starting point for developers looking to build a multilingual website with Astro, Rosey, and Bookshop components in CloudCannon.
 
 Create your own copy, and start creating your own components to use in the CloudCannon CMS. Build components with `.jsx` or `.astro`.
 
@@ -9,11 +9,16 @@ To try to cut down on setup time this starter template includes some commonly us
 This template is aimed at helping developers build sites quickly, rather than providing editors with a fully built editable site.
 If you are an editor looking for an already built template, have a look at [CloudCannon's templates page](https://cloudcannon.com/templates/).
 
-[See a demo version of this site](https://tiny-jackal.cloudvent.net/).
-
 ## Getting Started
 
 To start using this template, go to the [GitHub repository](https://github.com/CloudCannon/astro-starter/), and click `Use this template` to make your own copy.
+Build the site on CloudCannon.
+Create a staging site, with the environment variable `TRANSLATE=false`
+Create a production site, with the environment variable `TRANSLATE=false`
+Add the locales you want to translate to to the `LOCALES` environment variable, following the format `es-es`, with each locale separated by a comma.
+Add the environment variable `SYNC_PATHS=/rosey/` to the staging site.
+Enter a translation, wait for the build to finish, and publish to your production site.
+Navigate to the cloudvent.net address for your production site, and see Rosey redirect to your default browser language.
 
 ### Commands
 
@@ -34,6 +39,19 @@ All commands are run from the root of the project, from a terminal:
 3. Run `npm start`
 
 ## Features
+
+### Rosey
+
+This template uses Rosey to create a multilingual site.
+
+To get Rosey to work in CloudCannon, follow the following steps:
+
+- Create a staging site, with the environment variable `TRANSLATE=false`
+- Create a production site, with the environment variable `TRANSLATE=false`
+- Add the locales you want to translate to to the `LOCALES` environment variable, following the format `es-es`, with each locale separated by a comma.
+- Add the environment variable `SYNC_PATHS=/rosey/` to the staging site.
+- Enter a translation, wait for the build to finish, and publish to your production site.
+- Navigate to the adjective-noun.cloudvent.net address for your production site, and see Rosey redirect to your default browser language.
 
 ### Bookshop
 
