@@ -11,14 +11,14 @@ If you are an editor looking for an already built template, have a look at [Clou
 
 ## Getting Started
 
-To start using this template, go to the [GitHub repository](https://github.com/CloudCannon/astro-starter/), and click `Use this template` to make your own copy.
-Build the site on CloudCannon.
-Create a staging site, with the environment variable `TRANSLATE=false`
-Create a production site, with the environment variable `TRANSLATE=false`
-Add the locales you want to translate to to the `LOCALES` environment variable, following the format `es-es`, with each locale separated by a comma.
-Add the environment variable `SYNC_PATHS=/rosey/` to the staging site.
-Enter a translation, wait for the build to finish, and publish to your production site.
-Navigate to the cloudvent.net address for your production site, and see Rosey redirect to your default browser language.
+- To start using this template, go to the [GitHub repository](https://github.com/CloudCannon/astro-starter/), and click `Use this template` to make your own copy.
+- Build the site on CloudCannon.
+- Create a staging site, with the environment variable `TRANSLATE=false`
+- Create a production site, with the environment variable `TRANSLATE=false`
+- Add the locales you want to translate to to the `LOCALES` environment variable, following the format `es-es`, with each locale separated by a comma.
+- Add the environment variable `SYNC_PATHS=/rosey/` to the staging site.
+- Enter a translation, wait for the build to finish, and publish to your production site.
+- Navigate to the adjective-noun.cloudvent.net address for your production site, and see Rosey redirect to your default browser language.
 
 ### Commands
 
