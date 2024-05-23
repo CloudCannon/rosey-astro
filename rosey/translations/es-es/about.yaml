@@ -1,0 +1,66 @@
+hugo-rosey-demo: ""
+_inputs:
+  $:
+    type: object
+    comment: "[Go to Page](https://rugged-mandolin.cloudvent.net/about/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Untranslated
+          comment: "[To be translated](https://rugged-mandolin.cloudvent.net/about/)"
+          inputs:
+            - hugo-rosey-demo
+            - its-all-about-about-baby
+            - markdown:the-about-page
+            - read-more
+        - heading: Translated
+          comment: "[Already translated](https://rugged-mandolin.cloudvent.net/about/)"
+          inputs:
+            - keep-what-you-need-delete-the-rest
+  hugo-rosey-demo:
+    label: Translation (es-es)
+    hidden: false
+    type: text
+    options: {}
+    comment: Hugo Rosey Demo | [See
+      Context](https://rugged-mandolin.cloudvent.net/about/#:~:text=Hugo%20Rosey%20Demo)
+  its-all-about-about-baby:
+    label: Translation (es-es)
+    hidden: false
+    type: textarea
+    options: {}
+    comment: Its all about about baby. | [See
+      Context](https://rugged-mandolin.cloudvent.net/about/#:~:text=Its%20all%20about,about%20about%20baby.)
+  keep-what-you-need-delete-the-rest:
+    label: Translation (es-es)
+    hidden: false
+    type: textarea
+    options: {}
+    comment: Keep what you need. Delete the rest. | [See
+      Context](https://rugged-mandolin.cloudvent.net/about/#:~:text=Keep%20what%20you,Delete%20the%20rest.)
+  markdown:the-about-page:
+    label: Translation (es-es)
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      underline: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+    comment: The about page | [See
+      Context](https://rugged-mandolin.cloudvent.net/about/#:~:text=The%20about%20page)
+  read-more:
+    label: Translation (es-es)
+    hidden: false
+    type: text
+    options: {}
+    comment: Read More | [See
+      Context](https://rugged-mandolin.cloudvent.net/about/#:~:text=Read%20More)
+its-all-about-about-baby: ""
+keep-what-you-need-delete-the-rest: Conserva lo que necesitas. eliminar el resto.
+markdown:the-about-page: ""
+read-more: ""

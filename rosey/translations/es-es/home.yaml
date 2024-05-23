@@ -1,0 +1,86 @@
+astro-bookshop-starter: ""
+_inputs:
+  $:
+    type: object
+    comment: "[Go to Page](https://ample-sea.cloudvent.net/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Untranslated
+          comment: "[To be translated](https://ample-sea.cloudvent.net/)"
+          inputs:
+            - astro-bookshop-starter
+            - markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms
+            - markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like:-bookshophttps://cloudcannoncom/documentation/guides/bookshop-astro-guide/-blog-with-pagination-tags-and-snippetshttps://docsastrobuild/en/guides/markdown-content/#using-components-in-mdx-image-optimizationhttps://docsastrobuild/en/guides/images/#image-astroassets-seo-controls-responsive-header-and-footer-font-awesome-iconshttps://fontawesomecom/search?o=randm=free-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables
+        - heading: Translated
+          comment: "[Already translated](https://ample-sea.cloudvent.net/)"
+          inputs: []
+  astro-bookshop-starter:
+    label: Translation (es-es)
+    hidden: false
+    type: textarea
+    options: {}
+    comment: Astro Bookshop Starter | [See
+      Context](https://ample-sea.cloudvent.net/#:~:text=Astro%20Bookshop%20Starter)
+  markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms:
+    label: Translation (es-es)
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      underline: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+    comment: A starting point for **developers looking to build a website with
+      Astro, using Bookshop components in CloudCannon**. Create your own copy,
+      and start creating your own components to use in the CloudCannon CMS. |
+      [See
+      Context](https://ample-sea.cloudvent.net/#:~:text=A%20starting%20point,the%20CloudCannon%20CMS)
+  markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like:-bookshophttps://cloudcannoncom/documentation/guides/bookshop-astro-guide/-blog-with-pagination-tags-and-snippetshttps://docsastrobuild/en/guides/markdown-content/#using-components-in-mdx-image-optimizationhttps://docsastrobuild/en/guides/images/#image-astroassets-seo-controls-responsive-header-and-footer-font-awesome-iconshttps://fontawesomecom/search?o=randm=free-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables:
+    label: Translation (es-es)
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      underline: true
+      link: true
+      undo: true
+      redo: true
+      removeformat: true
+    comment: >-
+      To help save you time, some features are set up in this template, like:
+
+
+      *
+      [Bookshop](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/)
+
+      * Blog with pagination, tags and
+      [snippets](https://docs.astro.build/en/guides/markdown-content/#using-components-in-mdx)
+
+      * [Image
+      optimization](https://docs.astro.build/en/guides/images/#image--astroassets)
+
+      * SEO Controls
+
+      * Responsive header and footer
+
+      * [Font Awesome Icons](https://fontawesome.com/search?o=r&m=free)
+
+      * Schemas for adding new pages
+
+      * Editable color pallete
+
+      * Markdown styles
+
+      * CloudCannon configuration
+
+      * CSS variables | [See
+      Context](https://ample-sea.cloudvent.net/#:~:text=To%20help%20save,CSS%20variables)
+markdown:a-starting-point-for-developers-looking-to-build-a-website-with-astro-using-bookshop-components-in-cloudcannon-create-your-own-copy-and-start-creating-your-own-components-to-use-in-the-cloudcannon-cms: ""
+markdown:to-help-save-you-time-some-features-are-set-up-in-this-template-like:-bookshophttps://cloudcannoncom/documentation/guides/bookshop-astro-guide/-blog-with-pagination-tags-and-snippetshttps://docsastrobuild/en/guides/markdown-content/#using-components-in-mdx-image-optimizationhttps://docsastrobuild/en/guides/images/#image-astroassets-seo-controls-responsive-header-and-footer-font-awesome-iconshttps://fontawesomecom/search?o=randm=free-schemas-for-adding-new-pages-editable-color-pallete-markdown-styles-cloudcannon-configuration-css-variables: ""

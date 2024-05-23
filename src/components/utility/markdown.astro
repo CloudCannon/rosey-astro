@@ -1,0 +1,20 @@
+---
+import markdownit from 'markdown-it';
+import slugify from 'slugify';
+
+const md = markdownit({ html: true });
+const generateRoseyID = (text) => {
+  const formattedText = text.toLowerCase();
+  return slugify(formattedText, { remove: /[.*,[\]\(\)]/g });
+};
+
+const { content } = Astro.props;
+---
+
+<!-- This is styled in src/styles/_markdown.scss, which also styles the blog markdown text -->
+<div
+  class="markdown-text"
+  data-rosey-ns="markdown"
+  data-rosey={generateRoseyID(content)}
+  set:html={md.render(content)}
+/>

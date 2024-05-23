@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+npx @bookshop/generate
+
+echo "🌹Generating site with Rosey"
+npx rosey generate --source dist
+echo "🌹Generated a base.json from the built site"
+echo "🌹Generating translation files from base.json"
+node utils/generateTranslationFiles.cjs
+echo "🌹Generated translation files to be edited"
+echo "🌹Generating the locales files Rosey needs from our translation files"
+node utils/generateLocales.cjs
+echo "🌹Generated locales"
+
+if [[ $TRANSLATE == "true" ]];
+then
+  echo "Translating site with Rosey"
+  # We only want this to run on our production site, as it can interfere with CloudCannon CMS's visual editor
+  # There's a little bit of shuffling around here to ensure the translated site ends up where CloudCannon picks up your site
+  mv ./dist ./untranslated_site                  
+  npx rosey build --source untranslated_site --dest dist
+fi
